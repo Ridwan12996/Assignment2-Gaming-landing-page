@@ -1,0 +1,14 @@
+*{box-sizing: border-box;}
+/* nav-seaction */
+.nav-section{ border: 1px solid red; display: flex;justify-content: space-around;}
+.nav-1st-section{display: flex; gap:20px}
+.nav-1st-section img{ width: 80px; height: 40px; margin-top: 50px;
+
+  }
+.nav-start{color: #ff42a5   ;}
+.nav-text1{ text-align: ;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    }
