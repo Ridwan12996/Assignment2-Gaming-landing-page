@@ -1,8 +1,157 @@
 *{box-sizing: border-box;}
+
+nav {
+  background-color: #FFFFFF
+
+}
+
+.nav-container {
+  border: 1px solid azure;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.nav-container img {
+  display: flex;
+  text-align: center;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.logo-container p {
+  font-size: 30px;
+}
+
+.text-color { color: #FF42A5;
+}
+
+.nav-items-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  color: black;
+  border-color: 5px;
+  text-shadow: 5px;
+
+}
+
+.control-size {
+  font-size: 20px;
+}
+
+.nav-items-container a { color: #534C64;
+  text-decoration: none;
+}
+
+.btn {
+  padding: 10px 20px;
+}
+
+/ nav design ends.... /
+
+.banner-container {
+  margin: 50px auto 0;
+  max-width: 1400px;
+  display: flex;
+  align-items: center;
+}
+
+.banner-text {
+  width: 50%;
+
+}
+
+.banner-img {
+  width: 50%;
+}
+
+.banner-text h1 {
+  font-size: 40px;
+}
+
+.text-design {
+  color: indigo;
+  font-size: 50px;
+}
+
+.font-design a {
+  text-decoration-line: none;
+  color: black;
+  font-size: larger;
+
+
+}
+
+.banner-buttons {
+  margin: 15px;
+  background-color: #FF42A5;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.banner-button {
+  background-color: #4EC5F7;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+/ banner section ends.... /
+
+.game-container {
+  background-color: rgb(231, 247, 247);
+  width: 100%;
+  display: flex;
+  margin-right: 50px;
+  align-items: center;
+
+}
+
+.gamer-img {
+  width: 70%;
+
+}
+
+.gamer-text h1 {
+  color: brown;
+  font-size: 30px;
+  padding: auto;
+}
+
+.gamer-text {
+  text-align: right;
+
+}
+.follow-btn{    border-radius: 0.5rem;
+  background: rgba(11, 2, 35, 0.10);}
+.button {
+  background-color: #FF42A5;
+  ;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-left: 120px;
+}
+
+
 /* nav-seaction */
-.nav-section{ border: 1px solid red; display: flex;justify-content: space-around;}
+/* .nav-section{ border: 1px solid red; display: flex;justify-content: space-around; max-height: 140px;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
 .nav-1st-section{display: flex; gap:20px}
-.nav-1st-section img{ width: 80px; height: 40px; margin-top: 50px;
+.nav-1st-section img{ width: 80px; height: 40px; margin-top: 50px
 
   }
 .nav-start{color: #ff42a5   ;}
@@ -12,3 +161,200 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .nav-2nd-section{  display: flex; gap: 50px; margin-top: 10px; margin-bottom: 20px;
+       padding-top: 50px; padding-right: 20px;
+    color: #3C354F;
+    text-align: center;
+    font-family:work;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+    .nav-2nd-section a{ gap: 50px; text-decoration: none; color: #3C354F;    }
+       
+    .btn{display: flex; justify-content: space-between; align-items: center; gap:20px;
+      border-radius: 5px; border: none;}    */
+    /* .banner-container{  display: flex; padding-left: 100px;
+      width: 600px;
+      height: 700px; flex-shrink: 0; align-items: center; align-content: center; text-align: center;
+      background-image: url('../images/Group\ 14.png'); background-position: bottom;}             
+      .head-section2 h2{font-size: 48px; text-align: center ;} 
+      .head-section2 h3{ text-align: center;
+        font-size: 95px; color: #f948b2;
+        text-transform: uppercase;}  .btn-sign { color: #FFF;
+            } */
+
+    
+    /* .play-like{ display: flex; justify-content:space-between ; align-items: center;
+    text-align: center;}  */
+    .banner-container{  margin: 50px auto 0;
+      max-width: 1400px;
+      display: flex;   justify-content: center; text-align: center;
+      align-items: center;   }
+      .banner-text{ width: 100%; height: 100%; background-image: url('../images/Group\ 14.png'); background-position: bottom;} 
+      .banner-text h1{ font-size: 40px;} 
+      .text-design{ color: indigo; font-size: 50px;}
+      .banner-buttons{   margin: 15px; color: #FFF; border: none;
+        background-color: #FF42A5; 
+        padding: 10px 20px;
+        border-radius: 20px;
+        margin-right: 20px;}
+      .banner-button { color: #FFF; border: none;
+        background-color: #4EC5F7;
+        padding: 10px 20px;
+        border-radius: 20px;
+        margin-right: 20px;
+    }
+    
+    
+    /* .play-img{ border: 2px solid blue; margin-left: 20px; margin-right: 100px; margin-top: 10px;} */
+    /* .head-section3 */
+    .banner-img{ width: 50%;}
+
+
+
+    .head-section3{ background-color: #ff42a410; display: flex; padding: 40px;}
+    .head-section3 h2{color: #8758f1; font-size: 48px;}
+    .head-section3 p{ color: #534C64;
+      text-align: right;
+      font-family: Work Sans;
+      font-size: 1.125rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.875rem;} .head-section3 button{margin-left: 500px; background-color: #ff42a5; width: 120px; 
+        height: 50px;
+        padding: 10px 10px; border-radius: 3rem; color: #FFFF; border: none;} 
+        /* main section */
+        .main-section1 {display:grid; justify-content: space-evenly;}
+        .main-section1-title{ margin-left: 450px;}
+        .main-section1-title h2{font-size: 3rem;}
+        .main-section1-title p{ font-size: 1.125rem; margin-left: 50px; color:#534C64;}
+        .main-section1-title span{color: #5758f1;}
+        .online-game{display: flex; gap:20px ; color: #534C64;}
+                           /*main//// grid-section */
+
+      .game-products {
+        margin: 50px auto 0;
+        max-width: 1400px;
+        min-height: 400px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .game-demo h1 {
+        font-size: 40px;
+    }   .game-demo p{ color: #534C64;}
+    
+    .relative {
+        position: relative;
+        padding: 100px;
+        left: 100px;}
+
+.div {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+                         /* iconbar section */
+                             .iconbar-container {
+                                margin: 50px auto 0;
+                                display: flex;
+                                flex-wrap: wrap;
+                                max-width: 1000px;
+                                gap: 20px;
+                            
+                            
+                            }
+                            
+                            .icon {
+                                display: flex;
+                                align-items: center;
+                                gap: 10px;
+                                border: 1px solid white;
+                                background-color: white;
+                                border-radius: 10px;
+                            
+                            
+                            }
+                            
+                            .icon-1 {
+                                color: #FF42A5;
+                                display: flex;
+                                align-items: center;
+                                border: 1px solid #FF42A5;
+                                border-radius: 1rem;
+                            }
+  /* footer section                             */
+  .footer-section {
+    margin: 50px auto 0;
+    height: 600px;
+    background-color: #0B0223;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.logo-design {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+
+}
+
+.tex-color {
+    font-size: 40px;
+    right: 3px;
+}
+
+.text {
+    display: flex;
+    gap: 25px;
+    padding: 20px;
+
+}
+
+.iconbar {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 10px;
+    line-height: 40px;
+    border-color: aqua;
+    border-radius: 5px;
+
+}
+
+.fa-brands {
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 25px;
+    border-color: red;
+    border-radius: 5px;
+
+}
